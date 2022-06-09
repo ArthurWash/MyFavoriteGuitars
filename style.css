@@ -1,0 +1,63 @@
+body {
+    background-image: url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: antiquewhite;
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+}
+
+ol {
+    list-style: none;
+    font-size: 1.5em;
+}
+
+ul li {
+    display: block;
+    overflow: hidden;
+    float: left;  
+    background-color: rgb(71, 69, 69);
+    margin: 10px;
+    padding: 4px;
+}
+
+#navbar { position: fixed;}
+
+img {
+    transition: all .4s ease-in-out;
+}
+
+img:hover {transform: scale(1.1);}
+
+.row {
+    text-align: center;
+}
+
+.guitarist img, h2 { width: 100%; margin-left: 50%;}
+
+
+.guitarist {
+    float: left;
+    width: 30%;
+    padding: 50px;
+}
+/* Portfolio clearing floats after image containers */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* unvisited link */
+a:link { color: rgb(255, 255, 0); text-decoration: none;}
+
+/* visited link */
+a:visited { color: orange}
+
+/* mouse over link */
+a:hover { 
+    color: red; text-decoration: underline; font-size: 20px; width: 900px;}
+
+/* clicked link */
+a:active { color: blue; font-weight: bold;}
