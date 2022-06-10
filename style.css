@@ -76,6 +76,8 @@ img:hover {transform: scale(1.1);}
 #sideByside {margin-right: 40px;
 }
 
+.album {border-radius: 10px;}
+
 /* unvisited link */
 a:link { color: rgb(255, 255, 0); text-decoration: none;}
 
