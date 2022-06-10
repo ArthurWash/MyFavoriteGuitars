@@ -56,7 +56,7 @@ img:hover {transform: scale(1.1);}
 
 #bandLink:hover {font-size: 16px;}
 
-.lilMeDiv {
+.meDiv {
     position: relative;
     text-align: center;
     color: rgb(0, 0, 0);
@@ -73,10 +73,7 @@ img:hover {transform: scale(1.1);}
     transform: none;
 }
 
-#sideByside {
-    position: relative;
-    margin-right: 40px;
-    bottom: 250px;
+#sideByside {margin-right: 40px;
 }
 
 /* unvisited link */
