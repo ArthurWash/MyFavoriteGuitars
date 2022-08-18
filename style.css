@@ -26,6 +26,7 @@ ul li {
 
 img {
     transition: all .4s ease-in-out;
+    border-radius: 10px;
 }
 
 img:hover {transform: scale(1.1);}
